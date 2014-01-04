@@ -1,6 +1,9 @@
 # Debugging Drill Use A Repl 
  
 ##Learning Competencies 
+* Use IRB to write code segments
+* Research a new tool and understand when it is useful
+* Test code without attachment
 
 ##Summary 
 
@@ -23,22 +26,19 @@ IRB is a great place to experiment and play with Ruby.  Think of it as a sandbox
 
 To load IRB, simply open your Terminal and run the command `irb`.  You should see your command prompt change to something like this: `1.9.3p194 :001 > `.  Now you can write Ruby code that will execute immediately.
 
-*Note*: the number on the left - `1.9.3p194` indicates the current version of Ruby; it may be different on your machine.
+*Note*: the number on the left - `1.9.3p194` indicates the current version of Ruby; it may be different on your machine. 
 
-## Learning Goals
-* Using IRB 
-* Research a new tool and understand when it is useful
-* Testing code without attachment
+##Releases
 
-## Objectives
+To submit, copy the IRB history that you create for each Release and paste it in the irb.md file.
 
-### Define a method
+###Release 0 : Define a method
 
 In IRB, define a method `say_hi` that takes a person's name as an argument and returns a simple greeting.  
 
 For example, if you use the name "Shereef", `say_hi` would return `"Hi, Shereef"`.  Then call the method with with your name as the argument.
 
-### Assign variables
+###Release 1: Assign variables
 
 Assign values to a few different variables.  Use integers, strings, symbols, hashes, arrays - anything you want.
 
@@ -48,7 +48,7 @@ Things to try:
 - Comparing `object_id`
 - Using `#inspect`
 
-### Include a module
+###Release 2: Include a module
 
 Type `Math.sqrt(1282)`.  Or `Time.now`.  Or `Array.new(10, 'bee')`.  You can access all the built-in modules and classes.  Isn't that special?
 
@@ -60,14 +60,8 @@ Include the `Math` module in your current IRB environment by typing
 
 This dumps the methods from the `Math` module into the global object.  Now if you type `sqrt 64` it should return `8`.
 
-###Done!
 
-Copy the IRB history that you've created and paste it in your gist!
 
- 
-
-##Releases
-###Release 0 
 
 ##Optimize Your Learning 
 
