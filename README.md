@@ -61,8 +61,6 @@ Include the `Math` module in your current IRB environment by typing
 This dumps the methods from the `Math` module into the global object.  Now if you type `sqrt 64` it should return `8`.
 
 
-
-
-##Optimize Your Learning 
-
+<!-- ##Optimize Your Learning 
+ -->
 ##Resources
