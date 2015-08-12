@@ -48,6 +48,8 @@ As mentioned in the *Summary*, in IRB we can input expressions, which will be ev
 
 Run the code in Figure 2 in our open IRB session.  As we work through later releases, be sure to run the code from each of the example figures in our open IRB session.
 
+*Note:* In IRB  we can use `ctrl + c`, if we make a typo or otherwise need to cancel what we're currently typing.
+
 
 ### Release 1: Variables and Methods
 ```
