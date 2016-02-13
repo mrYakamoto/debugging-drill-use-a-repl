@@ -1,0 +1,9 @@
+=> 2
+=> true
+=> nil
+=> "Hello."
+=> true
+=> #<Date: 1988-09-21 ((2447426j,0s,0n),+0s,2299161j)>
+=> #<Dog:0x007ff38207b728 @name="Tucker", @license=123454>
+=> "Tucker"
+=> 123454
